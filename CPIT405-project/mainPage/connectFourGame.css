@@ -1,0 +1,31 @@
+body{
+    background-image: url('./connectFour.jpg')
+}
+.grid{
+    border: 10px solid black;
+    height:360px;
+    width: 420px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+  margin-right: auto;
+}
+.grid div{
+    /* /6 */
+    height:60px;
+    /* /7 */
+    width: 60px;
+   
+}
+.player-one{
+    background-color:red;
+    border-radius: 30px;
+}
+.player-two{
+    background-color:blue;
+    border-radius: 30px;
+}
+.curr-p{
+    text-align:center;
+    font-size:5rem
+}
